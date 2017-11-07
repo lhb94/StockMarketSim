@@ -1,0 +1,83 @@
+@startuml
+abstract class stockmarketsim.ExtEvent
+abstract class stockmarketsim.Trader
+annotation java.lang.Override
+class java.io.BufferedReader
+class java.io.BufferedWriter
+class java.io.File
+class java.io.FileOutputStream
+class java.io.FileReader
+class java.io.IOException
+class java.io.OutputStreamWriter
+class java.text.DateFormat
+class java.text.ParseException
+class java.text.SimpleDateFormat
+class java.util.ArrayList
+class java.util.Arrays
+class java.util.Calendar
+class java.util.Date
+class java.util.EnumMap
+class java.util.HashMap
+class java.util.List
+class java.util.Map
+class java.util.Random
+class stockmarketsim.BuySellEvent
+class stockmarketsim.Client
+class stockmarketsim.Company
+class stockmarketsim.Exchange
+class stockmarketsim.IntelligentTrader
+class stockmarketsim.MarketIO
+class stockmarketsim.MarketSnapshot
+class stockmarketsim.Offer
+class stockmarketsim.Portfolio
+class stockmarketsim.RandomTrader
+class stockmarketsim.Simulation
+class stockmarketsim.Stock
+class stockmarketsim.StockMarket
+class stockmarketsim.StockMarketSim
+enum stockmarketsim.ExchangeType
+enum stockmarketsim.MarketState
+stockmarketsim.ExtEvent ..> java.util.Date
+stockmarketsim.Trader ..> java.util.ArrayList
+stockmarketsim.Trader ..> java.util.List
+stockmarketsim.BuySellEvent --|> stockmarketsim.ExtEvent
+stockmarketsim.BuySellEvent ..> java.lang.Override
+stockmarketsim.BuySellEvent ..> java.util.Date
+stockmarketsim.IntelligentTrader --|> stockmarketsim.Trader
+stockmarketsim.IntelligentTrader ..> java.lang.Override
+stockmarketsim.IntelligentTrader ..> java.util.ArrayList
+stockmarketsim.IntelligentTrader ..> java.util.Random
+stockmarketsim.MarketIO ..> java.io.BufferedReader
+stockmarketsim.MarketIO ..> java.io.FileReader
+stockmarketsim.MarketIO ..> java.io.IOException
+stockmarketsim.MarketIO ..> java.text.DateFormat
+stockmarketsim.MarketIO ..> java.text.ParseException
+stockmarketsim.MarketIO ..> java.text.SimpleDateFormat
+stockmarketsim.MarketIO ..> java.util.ArrayList
+stockmarketsim.MarketIO ..> java.util.Arrays
+stockmarketsim.MarketIO ..> java.util.Date
+stockmarketsim.MarketIO ..> java.util.EnumMap
+stockmarketsim.MarketIO ..> java.util.List
+stockmarketsim.MarketIO ..> java.util.Map
+stockmarketsim.MarketSnapshot ..> java.util.ArrayList
+stockmarketsim.MarketSnapshot ..> java.util.Date
+stockmarketsim.Portfolio ..> java.util.List
+stockmarketsim.RandomTrader --|> stockmarketsim.Trader
+stockmarketsim.RandomTrader ..> java.lang.Override
+stockmarketsim.RandomTrader ..> java.util.ArrayList
+stockmarketsim.RandomTrader ..> java.util.List
+stockmarketsim.RandomTrader ..> java.util.Random
+stockmarketsim.Simulation ..> java.util.ArrayList
+stockmarketsim.Simulation ..> java.util.Calendar
+stockmarketsim.Simulation ..> java.util.Date
+stockmarketsim.StockMarket ..> java.util.ArrayList
+stockmarketsim.StockMarket ..> java.util.Calendar
+stockmarketsim.StockMarket ..> java.util.Date
+stockmarketsim.StockMarket ..> java.util.HashMap
+stockmarketsim.StockMarket ..> java.util.List
+stockmarketsim.StockMarketSim ..> java.io.BufferedWriter
+stockmarketsim.StockMarketSim ..> java.io.File
+stockmarketsim.StockMarketSim ..> java.io.FileOutputStream
+stockmarketsim.StockMarketSim ..> java.io.IOException
+stockmarketsim.StockMarketSim ..> java.io.OutputStreamWriter
+@enduml

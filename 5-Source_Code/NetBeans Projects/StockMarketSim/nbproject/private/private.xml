@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/BuySellEvent.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Portfolio.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/MarketSnapshot.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Trader.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/StockMarket.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/MarketIO.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/IntelligentTrader.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/StockMarketSim.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Exchange.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Offer.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/MarketState.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Client.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/ExtEvent.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/RandomTrader.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Company.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/ExchangeType.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Simulation.java</file>
+            <file>file:/C:/Users/lhb94/Documents/Software%20Engineering/Project/StockMarketSim/src/stockmarketsim/Stock.java</file>
+        </group>
+    </open-files>
+</project-private>
